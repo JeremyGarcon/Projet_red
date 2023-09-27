@@ -1,8 +1,7 @@
 package main
 
-import (
-    "fmt"
-)
+import "fmt"
+
 
 // Structure représentant l'inventaire du joueur
 type Inventory struct {
@@ -24,7 +23,7 @@ func (inv *Inventory) RemoveItem(item Item) {
     }
 }
 
-func main() {
+func ma() {
     // Créer un inventaire vide pour le joueur
     playerInventory := &Inventory{}
 
