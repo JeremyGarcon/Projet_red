@@ -1,6 +1,0 @@
-package main
-
-func Re_Menu_In_Game() {
-	clear()
-	Menu_In_Game()
-}
