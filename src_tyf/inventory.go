@@ -6,6 +6,7 @@ import (
 
 type Item struct { // Structure item
 	Name string
+	Price int
 }
 
 type Inventaire struct { // Structure inventaire
