@@ -1,7 +1,8 @@
 package main
 
-import "fmt"
-
-func economie() {
-	fmt.Println("l'economie est pas encore faite")
+func GoldCheck(perso1 *Personnage, Somme int) bool {
+	if perso1.Argent <= Somme {
+		return false
+	}
+	return true
 }
