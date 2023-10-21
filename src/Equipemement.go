@@ -1,4 +1,3 @@
-/*
 package main
 
 import (
@@ -80,5 +79,6 @@ if perso1.Equipement[2].Equipement_de_jambe.Name != "Bottes de l'aventurier" {
 	perso1.PV_Actuels -= 10
 	return *perso1
 	}
+	return *perso1
 } 
-*/
+
